@@ -1,0 +1,29 @@
+.bg-image {
+    background-image: url("../images/main-bg.jpg");
+}
+
+.icon {
+    font-size: 4rem;
+    float: left;
+    margin-left: 100px;
+    padding: 8px;
+    border: .5px solid black;
+}
+
+.icon-desc {
+    width: 60%;
+    margin: 10px auto;
+}
+
+@media only screen and (max-width: 764px) {
+    .icon {
+        margin-left: 5px;
+        border: none;
+    }
+
+    .icon-desc {
+        width: 80%;
+        margin: 10px auto;
+        padding: 10px !important;    
+    }
+}
