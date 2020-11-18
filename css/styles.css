@@ -10,6 +10,12 @@
     border: .5px solid black;
 }
 
+.icon-header {
+    width: 60%;
+    margin: 10px auto;
+    text-decoration: underline;
+}
+
 .icon-desc {
     width: 60%;
     margin: 10px auto;
@@ -26,4 +32,9 @@
         margin: 10px auto;
         padding: 10px !important;    
     }
+
+    .icon-header {
+        width: 90%;
+        margin: 10px auto;
+    }    
 }
